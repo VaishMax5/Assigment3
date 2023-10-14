@@ -1,0 +1,48 @@
+/* Style the calculator container */
+body {
+    text-align: center;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+h1 {
+    color: #090606;
+}
+
+/* Style input fields */
+input[type="number"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+/* Style the select element */
+select {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+/* Style the calculate button */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Style the result display */
+#result {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #070606;
+}
+
